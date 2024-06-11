@@ -6,9 +6,9 @@
 ## **Objective:**
 
 - Evaluate the performance (training/testing time, memory usage) and accuracy of the following KNN variants for nearest neighbor search:
-    - Naive KNN
-    - Locality-Sensitive Hashing (LSH)
-    - KD-Tree
+    - `Naive KNN`
+    - `Locality-Sensitive Hashing (LSH)`
+    - `KD-Tree`
 
 - Analyze the impact of dataset size (`N`) and dimensionality (`D`) on these factors.
 - Visually demonstrate the approximate nature of LSH and KD-Tree by comparing the true `K` nearest neighbors with those found by these methods in a 2D dataset.
