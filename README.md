@@ -3,6 +3,10 @@
 ## **Project Title**:
 **Scaling Up Nearest Neighbor Search : How Dataset Size and Dimensionality Affect KNN Variants**
 
+## **Professional Description:**
+
+This project investigates the performance trade-offs between efficiency and accuracy in KNN search algorithms. It compares three variants: Naive KNN, LSH, and KD-Tree, analyzing their training and testing time, memory usage, and effectiveness in finding the `K` nearest neighbors for varying dataset sizes (`N`) and dimensionalities (`D`). Through visualization, the project showcases the approximate nature of LSH and KD-Tree and how they might miss some true nearest neighbors in exchange for faster execution. The findings provide valuable insights into choosing the
+
 ## **Objective:**
 
 - Evaluate the performance (training/testing time, memory usage) and accuracy of the following KNN variants for nearest neighbor search:
@@ -47,9 +51,5 @@
     - Show the partitions created by LSH (buckets) and KD-Tree (hyperplane splits) in the 2D space.
     - Mark the points identified by LSH and KD-Tree as their approximate `K` nearest neighbors.
     - Visually compare true neighbors vs. approximate neighbors to illustrate the trade-off between efficiency and accuracy in approximate methods.
-
-## **Professional Description:**
-
-This project investigates the performance trade-offs between efficiency and accuracy in KNN search algorithms. It compares three variants: Naive KNN, LSH, and KD-Tree, analyzing their training and testing time, memory usage, and effectiveness in finding the `K` nearest neighbors for varying dataset sizes (`N`) and dimensionalities (`D`). Through visualization, the project showcases the approximate nature of LSH and KD-Tree and how they might miss some true nearest neighbors in exchange for faster execution. The findings provide valuable insights into choosing the
 
 **Contribution : *Mrugank Patil & Omkar Rajeev Prabhu***
