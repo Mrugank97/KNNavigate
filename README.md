@@ -5,7 +5,7 @@
 
 ## **Description:**
 
-This project investigates the performance trade-offs between efficiency and accuracy in KNN search algorithms. It compares three variants: Naive KNN, LSH, and KD-Tree, analyzing their training and testing time, memory usage, and effectiveness in finding the `K` nearest neighbors for varying dataset sizes (`N`) and dimensionalities (`D`). Through visualization, the project showcases the approximate nature of LSH and KD-Tree and how they might miss some true nearest neighbors in exchange for faster execution. The findings provide valuable insights into choosing the
+This project investigates the performance trade-offs between efficiency and accuracy in KNN search algorithms. It compares three variants: Naive KNN, LSH, and KD-Tree, analyzing their training and testing time, memory usage, and effectiveness in finding the `K` nearest neighbors for varying dataset sizes (`N`) and dimensionalities (`D`). Through visualization, the project showcases the approximate nature of LSH and KD-Tree and how they might miss some true nearest neighbors in exchange for faster execution. The findings provide valuable insights into choosing the suitable KNN variant.
 
 ## **Objective:**
 
